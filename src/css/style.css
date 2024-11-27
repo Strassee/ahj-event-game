@@ -1,0 +1,29 @@
+body {
+    color: #999;
+}
+
+td {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.stat {
+    height: 30px;
+}
+
+table, th, td {
+    border: 1px solid;
+    cursor: url('../img/MarvelSweezyCursors.cur'), auto; 
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* height: 80vh; */
+    position: relative;
+}
